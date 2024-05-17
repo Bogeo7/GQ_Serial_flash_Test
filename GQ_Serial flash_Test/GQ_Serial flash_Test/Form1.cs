@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -99,10 +99,12 @@ namespace GQ_Serial_flash_Test
             string ReceiveData = serial_port.ReadExisting();
             Serial_Console.AppendText(ReceiveData);
 
-            var match = Regex.Match(CHECKMAC, @"GQ: MACAddr\[(?<MacAddress>([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2})\]", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-            //MAC_CHECK_FIELD.AppendText(match.Groups["MacAddress"].Value);
-            if (ReceiveData.Contains(CHECKMAC)) { }
-            else {
+            var match = Regex.Match(ReceiveData, @"GQ: MACAddr\[(?<MacAddress>([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2})\]", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+            var MatchMac = match.Groups["MacAddress"].Value;
+
+            if (MACADDRESS.Equals(MatchMac)) {
+                // 올바른 값이 검출된 경우
+            } else {
                 MAC_CHECK_FIELD.AppendText("Different MAC found! count : " + macerror + " / " + ReceiveData);
             }
             Serial_Console.ScrollToCaret();
