@@ -99,7 +99,7 @@ namespace GQ_Serial_flash_Test
             string ReceiveData = serial_port.ReadExisting();
             Serial_Console.AppendText(ReceiveData);
 
-            var match = Regex.Match(ReceiveData, @"GQ: MACAddr\[(?<MacAddress>([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2})\]", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+            var match = Regex.Match(ReceiveData, @"GQ: MACAddr\[(?<MacAddress>([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2})\]", RegexOptions.Compiled | RegexOptions.Multiline | RegexOptions.IgnoreCase);
             var MatchMac = match.Groups["MacAddress"].Value;
 
             if (MACADDRESS.Equals(MatchMac)) {
