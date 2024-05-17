@@ -1,0 +1,9 @@
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\bin\Debug\GQ_Serial flash_Test.exe.config
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\bin\Debug\GQ_Serial flash_Test.exe
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\bin\Debug\GQ_Serial flash_Test.pdb
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\obj\Debug\GQ_Serial flash_Test.csprojResolveAssemblyReference.cache
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\obj\Debug\GQ_Serial_flash_Test.Form1.resources
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\obj\Debug\GQ_Serial_flash_Test.Properties.Resources.resources
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\obj\Debug\GQ_Serial flash_Test.csproj.GenerateResource.Cache
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\obj\Debug\GQ_Serial flash_Test.exe
+c:\users\gloquad_dh\documents\visual studio 2012\Projects\GQ_Serial flash_Test\GQ_Serial flash_Test\obj\Debug\GQ_Serial flash_Test.pdb
